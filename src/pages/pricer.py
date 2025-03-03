@@ -363,15 +363,15 @@ option_data = {
         "variables": {
             "Market": ["Spot", "Dividend Yield", "Volatility",  "Interest Rate"],
             "Contract": {
+                "Coupon" : None,
                 "Memory Feature": {"choices": [True, False]},
                 "Frequency Observation" : {"choices":  ["Monthly", "Quartly", "Semestrially", "Annually"]},
                 "Maturity in years": None,  
             },
             "Barriers": {
-                "Coupon" : None,
-                "Protection Barrier": None,  
-                "Coupon Barrier": None,  
-                "Autocall Barrier": None,
+                "Autocall Barrier": None,  
+                "Coupon Barrier": None, 
+                "Protection Barrier": None,
                 "Barriers as Percentage": {"choices": [True, False]},
             },
         },
@@ -417,14 +417,14 @@ option_data = {
         "variables": {
             "Market": ["Spot", "Dividend Yield", "Volatility",  "Interest Rate"],
             "Contract": {
+                "Coupon" : None,
                 "Memory Feature": {"choices": [True, False]},
                 "Frequency Observation" : {"choices":  ["Monthly", "Quartly", "Semestrially", "Annually"]},
                 "Maturity in years": None,  
             },
             "Barriers": {
-                "Coupon" : None,
-                "Protection Barrier": None,  
                 "Autocall/Coupon Barrier": None,
+                "Protection Barrier": None,  
                 "Barriers as Percentage": {"choices": [True, False]},
             }
         },
