@@ -8,7 +8,7 @@ This project provides a fast and intuitive interface for option pricing and risk
 
 ---
 
-## 📂 Supported Options  
+## Supported Options  
 - **Vanilla Options**:  Calls and Puts  (European/American)
 - **Exotic Options**: Asian, Lookback, Quanto, Digits, Barrier Options (European/American)
 - **Structured Products and Strategies**:  Autocall (Phenix,Athena), Condor Spread, Butterfly Spread, ...
@@ -17,7 +17,7 @@ This project provides a fast and intuitive interface for option pricing and risk
 
 ---
 
-## 🏗️ Project Structure  
+## Project Structure  
 
 📂 `models/` → **Pricing and Greek calculation modules**  
  ┣ 📂 `greek_method/` → Computes option Greeks (Binomial, Monte Carlo, Black-Scholes)  
@@ -34,18 +34,10 @@ This project provides a fast and intuitive interface for option pricing and risk
 
 ---
 
-## 📊 Features  
+## Features  
 ✅ Interactive selection of option parameters  
 ✅ Real-time pricing results  
 ✅ Visualization of risk metrics and payout scenarios  
 
----
-
-## 🛠️ Technologies  
-- **Python** 🐍  
-- **Streamlit** (Interactive web UI)  
-- **NumPy & Pandas** (Data manipulation)  
-- **Plotly** (Graphical visualization)  
-- **Scipy** (Scientific computing)  
 
 ---
